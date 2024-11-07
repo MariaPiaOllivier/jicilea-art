@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7dfd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../elementos_graficos/trama.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    color: #392c1f;
+    scroll-behavior: smooth;
+
+}
+.iconoCarrito{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.iconoCarrito:hover{
+    color: #553e28;
+}
+.navbar-toggler {
+    background-color: #e7dfd6;
+    border-color: #25201a;
+}
+
+nav {
+    background-color: #25201a;
+}
+
+ul>li>a {
+    color: #e7dfd6 !important;
+    text-transform: uppercase;
+}
+
+ul>li>a:hover{
+    color: #553e28 !important;
+}
+.dropdown-menu {
+    background-color:#312a22;
+
+}
+
+.dropdown-item:hover {
+    color: #392c1f !important;
+    background-color: #c4b6a6;
+}
+
+li {
+    text-transform: capitalize;
+}
+
+.h1_cardHeader {
+    font-size: 6.7em;
+    text-align: center;
+    margin-top: 250px;
+    padding-left: 260px;
+    color: #392c1f !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.txtHeader {
+    font-size: 2.6em;
+    font-style: italic;
+    color: #392c1f;
+    text-align: start;
+    padding-left: 520px;
+
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    scroll-margin-top: 130px;
+    padding: 30px;
+}
+
+.card {
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px #3f2f2f;
+    background-color: #eee1d4;
+    padding: 50px;
+}
+
+img {
+    border-radius: 7px;
+}
+
+.img_estilo,
+.card-img-top {
+    box-shadow: 1px 1px 10px #392c1f;
+}
+
+/* -------WHATSAPP--------- */
+
+.linkWhas {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.3;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+
+.linkWhas:hover {
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
+    transform: scale(1.2, 1.2);
+}
+
+
+/* ----------FOOTER ------------*/
+
+footer {
+    background-color: #25201a;
+}
+
+.iconFooter {
+    font-size: 30px;
+    color: #e7dfd6;
+    margin: 10px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.ig-presonal {
+    color: #e7dfd6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.iconFooter:hover {
+    color: #392c1f;
+    background-color: #e7dfd6;
+    border-radius: 50px;
+    transform: scale(1.2, 1.2);
+}
+
+.copy_ {
+    color: #e7dfd6;
+    padding: 40px;
+    margin-bottom: 0px;
+}
+
+.logo-footer {
+    margin-top: 70px;
+    width: 110px;
+}
+
+.img-perfilFooter {
+    margin-top: 5em;
+
+}
+
+.card-footer {
+    width: 23rem;
+    background-color: #25201a !important;
+    color: #e7dfd6;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    list-style: none;
+    text-transform: none;
+}
+ul{
+    list-style: none;
+}
+.mailto{
+    text-transform:lowercase;
+}
+a {
+    text-decoration: none;
+    color: #e7dfd6;
+}
+
+.btn {
+    background-color: #25201a;
+    padding: 12px 50px;
+    border: none;
+    margin-top: 50px;
+    justify-content: end;
+}
+
+.btn:hover {
+    background-color: #553e28;
+}
+
+aside,
+.card-dialogo {
+    margin-bottom: 180px;
+}
+
+/* ----------GALERIA---------- */
+
+.galeria_arte {
+    margin-top: 140px;
+}
+
+.card-galeria {
+    margin-bottom: 50px;
+}
+
+.h1_galeria,
+.h1_descripcion,
+.h1_form {
+    font-size: 3em;
+    text-align: center;
+    background: #e7dfd6;
+    color: #25201a;
+    padding: 30px;
+    box-shadow: 1px 1px 10px #392c1f;
+}
+
+.h1_descripcion,
+.h1_form {
+    margin-top: 130px;
+}
+
+.h2_galeria {
+    color: #e7dfd6;
+}
+
+.accordion-header {
+    background-color: #25201a;
+}
+
+.accordion-button {
+    background-color: #25201a;
+    color: #e7dfd6;
+    font-size: 0.8em;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    border: none;
+    justify-content: center;
+}
+
+.accordion-header:hover,
+.accordion-button:hover {
+    border: none;
+    background-color: #25201a;
+    color: #e7dfd6;
+}
+
+.ultimo-item {
+    margin-bottom: 100px;
+}
+
+.collapse {
+    background-color: #25201a;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #e7dfd6;
+    background-color: #25201a;
+    box-shadow: none;
+    border-bottom: 1px solid #e7dfd6;
+}
+
+.card-galeria {
+    margin-bottom: 0px;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.mb-3 {
+    margin-bottom: 10rem !important;
+}
+
+
+
+/* ----------FORMULARIO---------- */
+
+.formulario-estilo {
+    margin-bottom: 3rem !important;
+}
+
+.cont-form {
+    max-width: 1200px;
+    margin-bottom: 100px;
+    background-color: #e7dfd6;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #392c1f;
+
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input:hover,
+textarea:hover {
+    background-color: #c4b6a6;
+    border: #25201a !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#archivo {
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+#mensaje {
+    resize: none;
+}
+
+.txto-form {
+    margin-bottom: 50px;
+}
+
+.btn-form {
+    display: flex;
+    margin: auto;
+}
+ 
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    /* .img-headerIndex{
+        display: none;
+    } */
+     .h1_cardHeader{
+        font-size: 3.6em;
+        margin-top: 40px;
+        padding-left: 120px;
+     }
+     .txtHeader {
+        font-size: 2.1em;
+        padding-left: 280px;
+    
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .h1_cardHeader {
+        font-size: 2.5em;
+        margin-top: 50px;
+        padding-left: 110px;
+    }
+    .txtHeader {
+        font-size: 1.3em;
+        padding-left: 260px;
+    }
+   .img-headerIndex{
+    margin-top: 150px;
+   }
+   .iconoCarrito{
+    font-size: 30px;
+    margin-left: 500px !important;
+}
+ }

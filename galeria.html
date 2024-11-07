@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./elementos_graficos/Circulo_logo.ico">
+  <title>Juan I. Cilea - Galeria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilo/estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./elementos_graficos/sinFondo.png" class="img-fluid"
+            alt="logo de la marca"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inspiracion.html">isnpiración</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="galeria.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                galeria de arte
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="galeria.html#caballos">caballos</a></li>
+                <li><a class="dropdown-item" href="galeria.html#gauchos">gauchos</a></li>
+                <li><a class="dropdown-item" href="galeria.html#polo">polo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">contacto</a>
+            </li>
+            <li class="nav-item dropdown"><a href="#" class="iconoCarrito"><i class="bi bi-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container galeria_arte">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./elementos_graficos/formasPago.png" class="d-block w-100" alt="banner formas de pago">
+        </div>
+        <div class="carousel-item">
+          <img src="./elementos_graficos/bannerCyber.png" class="d-block w-100" alt="banner promoción por cyber monday">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <div class="shadow-sm bg-body-tertiary rounded">
+      <h1 class="h1_galeria">Galeria de arte</h1>
+    </div>
+
+    <section>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 id="caballos" class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseOne">
+              caballos
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <div class="d-flex p-2">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/1cuartetera.png" class="card-img-top img-thumbnail"
+                          alt="Lamina de yegua dolfina cuartetera">
+                        <div class="card-body">
+                          <h3 class="card-title">"Dolfina"</h3>
+                          <a href="./cuartetera.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/villeritaDibujo.png" class="card-img-top img-thumbnail"
+                          alt="lamina de del dibujo hecho por el artista">
+                        <div class="card-body">
+                          <h3 class="card-title">"Villerita"</h3>
+                          <a href="./villerita.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/3_caballo.png" class="card-img-top img-thumbnail"
+                          alt="lamina de caballo llamado clon cuartetera">
+                        <div class="card-body">
+                          <h3 class="card-title">"Cuartetera 06"</h3>
+                          <a href="./clon.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex p-2">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/4tres_caballos.png" class="card-img-top img-thumbnail"
+                          alt="Lamina de 3 caballos galopando llamada trillizos">
+                        <div class="card-body">
+                          <h3 class="card-title">"Trillizos"</h3>
+                          <a href="./trillizos.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/5-caballo.png" class="card-img-top img-thumbnail"
+                          alt="lamina de caballo llamado sujetada">
+                        <div class="card-body">
+                          <h3 class="card-title">"Sujetada"</h3>
+                          <a href="./sujetada.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/2caballo-perfil.png" class="card-img-top img-thumbnail"
+                          alt="lamina de caballo llamado kitucho">
+                        <div class="card-body">
+                          <h3 class="card-title">"kitucho"</h3>
+                          <a href="./kitucho.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex p-2">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/7-costado.png" class="card-img-top img-thumbnail"
+                          alt="Lamina de caballo llamado el palenque">
+                        <div class="card-body">
+                          <h3 class="card-title">"El Palenque"</h3>
+                          <a href="./palenque.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/8-caballo.png" class="card-img-top img-thumbnail"
+                          alt="lamina de caballo la viña graciosa">
+                        <div class="card-body">
+                          <h3 class="card-title">"La Viña"</h3>
+                          <a href="./viña.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/caballos/9-caballo-marco.png" class="card-img-top img-thumbnail"
+                          alt="lamina de caballo llamado Arabe">
+                        <div class="card-body">
+                          <h3 class="card-title">"Arabe"</h3>
+                          <a href="./arabe.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 id="gauchos" class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              gauchos
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="d-flex p-2">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/gauchos/gaucho-mate.png" class="card-img-top img-thumbnail"
+                          alt="lamina de gaucho tomando mate lladama tradición en silencio">
+                        <div class="card-body">
+                          <h3 class="card-title">"La tradición"</h3>
+                          <a href="./silencio.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/gauchos/cimarronl.png" class="card-img-top img-thumbnail"
+                          alt="lamina de gaucho con su caballo tomando mate llamada el ultimo cimarron">
+                        <div class="card-body">
+                          <h3 class="card-title">“El cimarrón”</h3>
+                          <a href="./cimarron.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/gauchos/don-segundo.png" class="card-img-top img-thumbnail"
+                          alt="lamina de gaucho primer plano con el mate llamada don segundo sombra">
+                        <div class="card-body">
+                          <h3 class="card-title">“Don segundo”</h3>
+                          <a href="./donSegundo.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item ultimo-item">
+          <h2 id="polo" class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              polo
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="d-flex p-2">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/polo/machitos.png" class="card-img-top img-thumbnail"
+                          alt="lamina de jugador de polo con su yegua taqueando llamada machitos mi cielo">
+                        <div class="card-body">
+                          <h3 class="card-title">"Machitos"</h3>
+                          <a href="./machitos.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/polo/caparrita.png" class="card-img-top img-thumbnail"
+                          alt="lamina de jugador de polo con su yegua taqueando de frente llamada chaparrita">
+                        <div class="card-body">
+                          <h3 class="card-title">“Chaparrita” </h3>
+                          <a href="./chaparrita.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card card-galeria">
+                        <img src="./elementos_graficos/polo/dialogo.png" class="card-img-top img-thumbnail"
+                          alt="lamina de jugador de polo con su yegua trotando lladama diálogo">
+                        <div class="card-body">
+                          <h3 class="card-title">“Diálogo”</h3>
+                          <a href="./dialogo.html" class="btn btn-primary">Ver detalle</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer class="container-fluid">
+    <div class="container text-center">
+      <div class="row">
+
+        <div class="col">
+          <a class="navbar-brand" href="index.html"><img src="./elementos_graficos/sinFondo.png"
+              class="img-fluid logo-footer" alt="logo de la marca"></a>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+          <a class="contenedorRsSoc__iconos" id="ig" href="https://www.instagram.com/juanicilea_art/" target="_blank"><i
+              class="fab fa-instagram iconFooter"></i></a>
+        </div>
+        <div class="col">
+          <a class="contenedorRsSoc__iconos" id="fb" href="shttps://www.facebook.com/juan.cilea" target="_blank"><i
+              class="fa-brands fa-facebook iconFooter"></i></a>
+        </div>
+        <div class="col">
+          <a href="mailto:juanicilea@gmail.com"><i class="fa-regular fa-envelope iconFooter"></i></a>
+        </div>
+
+        <div class="iconoWhatsapp">
+          <a href="https://w.app/juancileapresupuesto" class="linkWhas" target="_blank">
+            <i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="card card-footer">
+      <img src="./elementos_graficos/perfilPia_.png" class="card-img-top img-fluid" alt="foto perfil de la alumna">
+      <div class="card-body">
+        <h2 class="card-title fs-4">Datos de la alumna:</h2>
+        <ul>
+        <li class="card-text">Nombre: María Pía Ollivier <a class="contenedorRsSoc__iconos" id="insta"
+            href="https://www.instagram.com/piuollivier/" target="_blank"><i
+              class="fab fa-instagram ig-personal"></i></a></li>
+        <li class="card-text">Fecha de nacimiento: 17/09/1990</li>
+        <li class="card-text">
+          <a href="mailto:" class="mailto">maria.ollivier@davinci.edu.ar</a></li>
+        </ul>
+      </div>
+    </div> -->
+    <p class="text-center copy_">Copyright © 2024 - Interacción con dispositivos móviles- 2do parcial</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
